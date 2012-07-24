@@ -4,5 +4,4 @@ Script to update /etc/hosts and /etc/apache2 and /etc/apache2/extra/httpd-vhosts
 
 ## Todo ##
 * Check if /etc/hosts file works fine with ping command
-* Modify /etc/apache2/extra/httpd-vhosts.conf
-* restart apache
+* restart apache from script
