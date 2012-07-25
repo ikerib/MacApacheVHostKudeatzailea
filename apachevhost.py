@@ -116,8 +116,7 @@ def vHost(vhost, complaint="Ez duzu izenik sartu!!"):
         AllowOverride All
         Allow from All
     </Directory>
-    ErrorLog "/private/var/log/apache2/""" + vhost + """-error_log"
-    CustomLog "/private/var/log/apache2/""" + vhost + """"-access_log" common
+
 </VirtualHost>"""
 
 	# copy old hosts to new file, excluding any configs copied by this script
